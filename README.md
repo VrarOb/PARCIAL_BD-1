@@ -45,29 +45,35 @@ Port: 5432
 Username: ulimar
 Password: ex4men_db
 
+---
+
 ## Estructura del modelo
 
 ### El modelo relacional está conformado por las siguientes entidades principales:
 
--Ciudad: información de ubicación y código postal.
--Usuario: datos personales y relación con una ciudad.
--Empleado, Cliente y Proveedor: especializaciones de usuario.
--Servicio: catálogo de servicios ofrecidos.
--Medio: tipos de medios de notificación.
--Turno: registro de citas y atención de servicios.
--Notificación: comunicaciones enviadas a los usuarios.
+-**Ciudad:** información de ubicación y código postal.  
+-**Usuario:** datos personales y relación con una ciudad.  
+-**Empleado, Cliente y Proveedor:** especializaciones de usuario.  
+-**Servicio:** catálogo de servicios ofrecidos.  
+-**Medio:** tipos de medios de notificación.  
+-**Turno:** registro de citas y atención de servicios.  
+-**Notificación:** comunicaciones enviadas a los usuarios.  
+
+---
 
 ## Carga de datos
 
 ### Ejemplos para la carga de datos y su verificacion
 
 **Carga**
-INSERT INTO ciudad VALUES (1, 'Cali', '760001');
-INSERT INTO usuario VALUES (1, 'Juan', 'López', 'Ninguna', 1);
-INSERT INTO servicio VALUES (1, 'Atención al cliente', 'Atención presencial en oficina', 'Activo');
+
+INSERT INTO ciudad VALUES (1, 'Cali', '760001');  
+INSERT INTO usuario VALUES (1, 'Juan', 'López', 'Ninguna', 1);  
+INSERT INTO servicio VALUES (1, 'Atención al cliente', 'Atención presencial en oficina', 'Activo');  
 
 **Verificacion**
-SELECT * FROM usuario;
-SELECT * FROM turno;
-SELECT * FROM notificacion;
+
+SELECT * FROM usuario;  
+SELECT * FROM turno;  
+SELECT * FROM notificacion;  
 

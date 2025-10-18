@@ -45,6 +45,11 @@ Port: 5432
 Username: ulimar
 Password: ex4men_db
 
+### 4.Ejecucion de los Scripts SQL
+
+1. Abrir el archivo `DDL.sql` en el Query Tool y ejecutar su contenido para crear las tablas.  
+2. Abrir el archivo `DML.sql` y ejecutarlo para insertar los datos de prueba.  
+
 ---
 
 ## Estructura del modelo
